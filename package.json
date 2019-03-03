@@ -6,6 +6,7 @@
   "bin": {
     "create-react-zlv": "bin/index.js"
   },
+  "keywords": ["react hooks", "typescript", "scaffolding"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
