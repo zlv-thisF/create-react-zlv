@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const commander = require("commander");
 const chalk = require("chalk");
 const path = require("path");
@@ -28,6 +30,6 @@ if (commander.init) {
     var projectName = path.win32.basename(projectPath);
     console.log(`${chalk.red("init project in ")}${chalk.green(projectName)}`);
     console.log(gitUrl, branch, projectName);
-    shelljs.exec(`nohup git clone ${gitUrl} ${projectName} && cd ${projectName} && git checkout ${branch}`);
+    shelljs.exec(`git clone ${gitUrl} ${projectName} && cd ${projectName} && git checkout ${branch}`);
 }
 
