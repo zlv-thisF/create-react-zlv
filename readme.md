@@ -14,10 +14,8 @@ npm i -g create-react-zlv
 #### USAGE
 
 basic:
-
-```diff
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=123) `#1589F0`
     create-react-zlv <your-project-name-here>
-```
 
 
 basic typescript:
