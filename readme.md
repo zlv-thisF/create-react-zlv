@@ -1,18 +1,23 @@
 ![](https://img.shields.io/badge/react--hooks-16.8.4%2B-brightgreen.svg)
+![](https://img.shields.io/badge/typescript-3.3-green.svg)
+![](https://img.shields.io/badge/mobx--react--lite-support-yellowgreen.svg)
+![](https://img.shields.io/badge/eslint-support-orange.svg)
 
 ## create-react-zlv
 
 A tool for build your app with react hooks easily
 
-##### INSTALL
+#### INSTALL
 
 npm i -g create-react-zlv
 
-##### USAGE
+#### USAGE
 
 basic:
 
-    create-react-zlv <your-project-name-here>
+```html
+    <p style="color: red;">create-react-zlv <your-project-name-here></p>
+```
 
 
 basic typescript:
