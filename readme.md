@@ -16,7 +16,7 @@ npm i -g create-react-zlv
 basic:
 
 ```diff
-+    create-react-zlv <your-project-name-here>
+    create-react-zlv <your-project-name-here>
 ```
 
 
