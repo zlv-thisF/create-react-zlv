@@ -15,8 +15,8 @@ npm i -g create-react-zlv
 
 basic:
 
-```html
-    <p style="color: red;">create-react-zlv <your-project-name-here></p>
+```diff
++    create-react-zlv <your-project-name-here>
 ```
 
 
