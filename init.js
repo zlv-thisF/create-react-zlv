@@ -1,6 +1,4 @@
-const commander = require("commander");
 const chalk = require("chalk");
-const path = require("path");
 const ora = require('ora');
 const download = require("download-git-repo");
 const fs = require("fs-extra");
@@ -10,7 +8,6 @@ const config = require("./config");
 var init = (branch, name) => {
     const spinner = ora('正在初始化项目...');
     const { gitUrl } = config;
-    console.log(gitUrl, branch, name);
     if (!fs.existsSync(name)) {
         console.log(`${chalk.red("Init project in:  ")}${chalk.green(name)}`);
         spinner.start();
