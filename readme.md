@@ -11,9 +11,15 @@ A tool for build your app with react hooks easily
 
 npm i -g create-react-zlv
 
+## NOTICE
+If anyone had already installed create-react-zlv, please update 1.3.0+ to avoid deflect and bugs！
+check version by command: create-react-zlv -V    
+
+
+
 #### USAGE
 
-basic:
+basic:``
 
     create-react-zlv <your-project-name-here>
 
