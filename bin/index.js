@@ -19,15 +19,15 @@ commander.on("--help", showInfo);
 commander.parse(process.argv);
 
 if (commander.ts) {
-    console.log(`TYPE: ${chalk.bgYellow("React + Typescript")}`);
+    console.log(`TYPE: ${chalk.bgBlue("React + Typescript")}`);
     init(config.branch.ts, commander.ts);
 } else if (commander.mobx){
-    console.log(`TYPE: ${chalk.bgYellow("React + Mobx")}`);
+    console.log(`TYPE: ${chalk.bgBlue("React + Mobx")}`);
     init(config.branch.mobx, commander.mobx);
 } else if (commander.tsMobx) {
-    console.log(`TYPE: ${chalk.bgYellow("React + Typescript + Mobx")}`);
+    console.log(`TYPE: ${chalk.bgBlue("React + Typescript + Mobx")}`);
     init(config.branch.tsMobx, commander.tsMobx);
 } else {
-    console.log(`TYPE: ${chalk.bgYellow("React base")}`);
+    console.log(`TYPE: ${chalk.bgBlue("React base")}`);
     init(config.branch.default, commander.args[0]);
 }
